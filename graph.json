@@ -1,0 +1,71 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "label": "Innovations Team",
+      "group": "Team"
+    },
+    {
+      "id": 5,
+      "label": "Collaborators",
+      "group": "Activity"
+    },
+    {
+      "id": 2,
+      "label": "Grants",
+      "group": "Activity"
+    },
+    {
+      "id": 1,
+      "label": "Research",
+      "group": "Activity"
+    },
+    {
+      "id": 4,
+      "label": "Formal Partners",
+      "group": "Activity"
+    },
+    {
+      "id": 3,
+      "label": "Events/courses",
+      "group": "Activity"
+    },
+    {
+      "id": 7,
+      "label": "Dissemination",
+      "group": "Activity"
+    }
+  ],
+  "edges": [
+    {
+      "from": 0,
+      "to": 5,
+      "label": "WORKS_WITH"
+    },
+    {
+      "from": 0,
+      "to": 2,
+      "label": "APPLIES_FOR"
+    },
+    {
+      "from": 0,
+      "to": 1,
+      "label": "CONDUCTS"
+    },
+    {
+      "from": 0,
+      "to": 4,
+      "label": "BUILDS"
+    },
+    {
+      "from": 0,
+      "to": 3,
+      "label": "ORGANIZES"
+    },
+    {
+      "from": 0,
+      "to": 7,
+      "label": "ENGAGES_WITH"
+    }
+  ]
+}
